@@ -9,9 +9,10 @@
 
 ## M1 — First daily view
 
-- [ ] Define the smallest local data model.
-- [ ] Render today's priorities.
-- [ ] Add create, complete, and defer actions.
+- [x] Define the smallest local data model.
+- [x] Render today's priorities.
+- [x] Add complete action.
+- [ ] Add create and defer actions.
 - [ ] Add focused unit tests.
 
 ## M2 — Reliability and polish

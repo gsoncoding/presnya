@@ -4,7 +4,7 @@ Presnya — foundation for a calm, local-first product. The repository is intent
 
 ## Structure
 
-- `backend/` — dependency-free HTTP health endpoint.
+- `backend/` — dependency-free HTTP API with health and today's priorities.
 - `ios/PresnyaApp/` — initial SwiftUI application shell.
 - `PRODUCT_SPEC.md` and `DESIGN_PRINCIPLES.md` — product and UX decisions.
 
@@ -16,3 +16,5 @@ curl http://localhost:3000/health
 ```
 
 Expected response: `{"status":"ok"}`.
+
+The first daily-view payload is available at `GET /api/today`.
